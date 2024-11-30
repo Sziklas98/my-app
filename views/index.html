@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash & Trade App</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Flash & Trade App</h1>
+    <nav>
+      <a href="#flashing-tools">Android Flashing</a>
+      <a href="#crypto-trading">Crypto Trading</a>
+      <a href="#p2p-trading">P2P Trading</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="flashing-tools">
+      <h2>Android Flashing Tools</h2>
+      <p>Simulate custom ROM flashing, rooting, and unbricking tools.</p>
+      <button onclick="alert('Custom ROM Flashing')">Custom ROM Flashing</button>
+      <button onclick="alert('Rooting & Recovery')">Rooting & Recovery</button>
+      <button onclick="alert('Unbrick Tool')">Unbricking Tools</button>
+    </section>
+    
+    <section id="crypto-trading">
+      <h2>Cryptocurrency Trading</h2>
+      <p>Real-time market data and coin swapping demo.</p>
+      <div>
+        <label for="crypto-coin">Select Coin:</label>
+        <select id="crypto-coin">
+          <option value="bitcoin">Bitcoin</option>
+          <option value="ethereum">Ethereum</option>
+          <option value="dogecoin">Dogecoin</option>
+        </select>
+        <button onclick="alert('Fetching Market Data...')">Get Market Data</button>
+      </div>
+      <div>
+        <button onclick="alert('Swap Successful')">Swap Coins</button>
+        <button onclick="alert('Price Alert Set')">Set Price Alert</button>
+      </div>
+    </section>
+    
+    <section id="p2p-trading">
+      <h2>Peer-to-Peer Trading</h2>
+      <p>Trade directly with users using escrow service.</p>
+      <button onclick="alert('Opening Marketplace...')">Open Marketplace</button>
+      <button onclick="alert('Escrow Initiated')">Use Escrow</button>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Demo App © 2024</p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
